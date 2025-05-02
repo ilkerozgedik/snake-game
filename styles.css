@@ -22,3 +22,19 @@ body {
     margin-top: 10px;
     font-size: 20px;
 }
+
+#game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+#game-over.hidden {
+    display: none;
+}
