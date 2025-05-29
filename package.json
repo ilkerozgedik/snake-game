@@ -1,0 +1,14 @@
+{
+  "name": "io-game-project",
+  "version": "1.0.0",
+  "scripts": {
+    "build:client": "cd my-canvas-game && npm install && npm run build",
+    "build:server": "cd server && npm install && npm run build",
+    "build": "npm run build:client && npm run build:server",
+    "start": "cd server && npm start",
+    "heroku-postbuild": "npm run build"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
